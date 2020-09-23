@@ -13,3 +13,7 @@ blogdown::new_site(
   to_yaml = TRUE,
   serve = interactive()
 )
+
+blogdown::install_hugo()
+blogdown::new_post("Introduction", ext = '.Rmd')
+blogdown::
