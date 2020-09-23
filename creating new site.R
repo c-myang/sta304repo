@@ -16,4 +16,3 @@ blogdown::new_site(
 
 blogdown::install_hugo()
 blogdown::new_post("Introduction", ext = '.Rmd')
-blogdown::
